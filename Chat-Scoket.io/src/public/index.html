@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CHAT</title>
+</head>
+<body>
+    <h1 class='title'>CREATE YOUR RECIPE</h1>
+
+        <form id="foodForm" class='form'>
+            <label>Id:</label>
+            <input class="input" name="id">
+
+            <label>First name:</label>
+            <input class="input" name="firstName">
+        
+            <label>Last name:</label> 
+            <input class="input" name="lastName">
+
+<!--             
+            <label>Alias:</label> 
+            <input class="input" id='steeps-input' name="alias">
+             -->
+            <label>URL image</label>
+            <input name='thumbnail'> 
+            <!-- <label>Image</label>
+            <input class="input" type="file" name="file">
+        -->
+            <input class="input-submit" type="submit">
+        </form>
+
+
+        
+        <div class="content-chat">
+            <h3>CHAT WTTH OTHER COOKS</h3>
+    
+            <input id="chatBox">
+        </div>
+    
+        
+        <table id="table"> </table>   
+        
+        <span id="history"></span>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>

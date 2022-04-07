@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "@faker-js/faker": "^6.1.2"
+  },
+  "dependencies": {
+    "normalizr": "^3.6.2"
+  }
+}

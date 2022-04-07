@@ -1,0 +1,35 @@
+/* title */
+.title{
+  text-align: center;
+}
+
+
+#foodForm{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: inherit;
+    margin:auto;
+}
+
+#steeps-input{
+  height: 125px;;
+}
+
+.input-submit{
+  margin: 30px 155px;
+}
+
+
+
+
+
+/* CHAT */
+.content-chat{
+  display: flex;
+  flex-direction: column;
+}
+
+#chatBox{
+  width:30%;
+}

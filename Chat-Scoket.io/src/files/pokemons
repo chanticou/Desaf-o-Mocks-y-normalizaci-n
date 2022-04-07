@@ -1,0 +1,16 @@
+[
+   {
+      "name": "Milanesas",
+      "ingredients": "pollo guacamole",
+      "steeps": "fritar el pollo blabla",
+      "thumbnail": "url//foodimg",
+      "id": 1
+   },
+   {
+      "name": "Copos",
+      "ingredients": "",
+      "steeps": "fritar el pollo blabla",
+      "thumbnail": "url//foodimg",
+      "id": 2
+   }
+]
